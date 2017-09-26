@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-MIN_MATCH_COUNT = 10
+MIN_MATCH_COUNT = 5
 
 img1 = cv2.imread('1111.jpg',0)
 img2 = cv2.imread('2222.jpg',0)
